@@ -1,0 +1,23 @@
+Request -
+{
+'operation': 'GET',
+'key': '<key>'
+}
+Response -
+{
+'key':'<key>'
+'value':'<value>'
+}
+
+Request -
+{
+'operation': 'PUT',
+'key': '<key>'
+'value': '<value>'
+}
+Response -
+{
+'key':'<key>'
+'value':'<value>'
+'old_value':'<old_value>'
+}
